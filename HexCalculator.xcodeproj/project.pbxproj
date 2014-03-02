@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5008513017034DC500CE81E6 /* arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 5008512F17034DC500CE81E6 /* arrows.png */; };
+		50C8353116E82F1400CF21B2 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C8353016E82F1400CF21B2 /* ThirdViewController.m */; };
 		50CBD05816C3FBCE00FF2D84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CBD05716C3FBCE00FF2D84 /* UIKit.framework */; };
 		50CBD05A16C3FBCE00FF2D84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CBD05916C3FBCE00FF2D84 /* Foundation.framework */; };
 		50CBD05C16C3FBCE00FF2D84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CBD05B16C3FBCE00FF2D84 /* CoreGraphics.framework */; };
@@ -24,9 +26,13 @@
 		50CBD07E16C3FBCE00FF2D84 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD07D16C3FBCE00FF2D84 /* SecondViewController.m */; };
 		50CBD08016C3FBCE00FF2D84 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 50CBD07F16C3FBCE00FF2D84 /* second.png */; };
 		50CBD08216C3FBCE00FF2D84 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50CBD08116C3FBCE00FF2D84 /* second@2x.png */; };
+		50CBD08A16C409D200FF2D84 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD08916C409D200FF2D84 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5008512F17034DC500CE81E6 /* arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrows.png; sourceTree = "<group>"; };
+		50C8352F16E82F1400CF21B2 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		50C8353016E82F1400CF21B2 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		50CBD05416C3FBCE00FF2D84 /* HexCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CBD05716C3FBCE00FF2D84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50CBD05916C3FBCE00FF2D84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +56,8 @@
 		50CBD07D16C3FBCE00FF2D84 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		50CBD07F16C3FBCE00FF2D84 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		50CBD08116C3FBCE00FF2D84 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		50CBD08816C409D200FF2D84 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		50CBD08916C409D200FF2D84 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,10 @@
 				50CBD07D16C3FBCE00FF2D84 /* SecondViewController.m */,
 				50CBD07F16C3FBCE00FF2D84 /* second.png */,
 				50CBD08116C3FBCE00FF2D84 /* second@2x.png */,
+				50CBD08816C409D200FF2D84 /* Calculator.h */,
+				50CBD08916C409D200FF2D84 /* Calculator.m */,
+				50C8352F16E82F1400CF21B2 /* ThirdViewController.h */,
+				50C8353016E82F1400CF21B2 /* ThirdViewController.m */,
 				50CBD05E16C3FBCE00FF2D84 /* Supporting Files */,
 			);
 			path = HexCalculator;
@@ -116,6 +128,7 @@
 		50CBD05E16C3FBCE00FF2D84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5008512F17034DC500CE81E6 /* arrows.png */,
 				50CBD05F16C3FBCE00FF2D84 /* HexCalculator-Info.plist */,
 				50CBD06016C3FBCE00FF2D84 /* InfoPlist.strings */,
 				50CBD06316C3FBCE00FF2D84 /* main.m */,
@@ -188,6 +201,7 @@
 				50CBD07B16C3FBCE00FF2D84 /* first@2x.png in Resources */,
 				50CBD08016C3FBCE00FF2D84 /* second.png in Resources */,
 				50CBD08216C3FBCE00FF2D84 /* second@2x.png in Resources */,
+				5008513017034DC500CE81E6 /* arrows.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +216,8 @@
 				50CBD06816C3FBCE00FF2D84 /* AppDelegate.m in Sources */,
 				50CBD07716C3FBCE00FF2D84 /* FirstViewController.m in Sources */,
 				50CBD07E16C3FBCE00FF2D84 /* SecondViewController.m in Sources */,
+				50CBD08A16C409D200FF2D84 /* Calculator.m in Sources */,
+				50C8353116E82F1400CF21B2 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +350,7 @@
 				50CBD08716C3FBCE00FF2D84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
